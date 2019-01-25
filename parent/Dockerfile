@@ -1,3 +1,3 @@
-FROM alpine:3.8
+FROM node:8
 WORKDIR /usr/src/app
 COPY parent/scripts scripts/
